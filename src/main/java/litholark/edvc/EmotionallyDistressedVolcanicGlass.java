@@ -2,6 +2,8 @@ package litholark.edvc;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.minecraft.block.GrassBlock;
+import net.minecraft.registry.Registry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +21,8 @@ public class EmotionallyDistressedVolcanicGlass implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		//Registry.register()
+
+		LOGGER.info("e");
 	}
 }

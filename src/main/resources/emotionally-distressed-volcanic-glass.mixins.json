@@ -1,14 +1,17 @@
 {
-	"required": true,
-	"package": "litholark.edvc.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
-	},
-	"overwrites": {
-		"requireAnnotations": true
+  "required": true,
+  "package": "litholark.edvc.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "BlocksInvoker",
+    "BlocksMixin",
+    "BrewingStandBEMixin",
+    "CryingObsidianBlockMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
 	}
 }
