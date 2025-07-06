@@ -3,7 +3,6 @@
   "package": "litholark.edvc.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "BlocksInvoker",
     "BlocksMixin",
     "BrewingStandBEMixin",
     "CryingObsidianBlockMixin"
